@@ -1,0 +1,237 @@
+@charset "utf-8";
+
+/* CSS Document */
+@font-face {
+	font-family: 'Copperplate Gothic Bold', 'Copperplate Gothic Light';
+	font-style: normal;
+	font-weight: 300;
+	src: local('Copperplate Gothic Bold'), local('Copperplate Gothic Light'), url(https://fonts.gstatic.com/s/poppins/v9/pxiByp8kv8JHgFVrLDz8Z1xlFQ.woff2) format('woff2');
+	unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+* {
+	font-family: 'Copperplate Gothic Bold', 'Copperplate Gothic Light';
+	margin: 0px;
+}
+body{background-color:black;}
+
+div.header {
+	position: sticky;
+	top: 0px;
+	background-color: white;
+	padding: 15px;
+	width: auto;
+	max-height: 45px;
+	z-index: 20;
+}
+a.menu {
+	padding: 9px 7px 0px 7px;
+	
+}
+a.donate {
+	text-align: center;
+	margin-right: 10px;
+	border: 1px solid lightblue;
+	border-radius: 10px;
+	padding: 7px;
+	background-color: lightblue;
+}
+a.logo {
+	float: left;
+	margin-left: 15px;
+	background-color:white;
+}
+img.ll {
+	margin-top: 4px;
+	transition: width 100ms, height 100ms;
+}
+.ll:hover {
+	width: 160px;
+	height: 43px;
+}
+ul {
+	list-style-type: none;
+	padding: 0;
+	overflow: hidden;
+	background-color:white;
+
+}
+li {
+	float: right;
+}
+li a {
+	font-family: 'Copperplate Gothic Bold', 'Copperplate Gothic Light';
+	font-size: 20px;
+	display: block;
+	color:black;
+	padding: 12px;
+	text-align: center;
+	margin-left: 10px;
+	text-decoration: none;
+	transition: font-size 175ms;
+}
+#active {
+	color: lightblue;
+	font-size: 21px;
+}
+li a.menu:hover:not(#active) {
+	color: lightblue;
+	font-size: 22px;
+}
+li a.menu:hover {
+	color: lightblue;
+	font-size: 22px;
+}
+li a.donatebtn:hover {
+	font-size: 22px;
+}
+.sub {
+	padding-top: 15px;
+	font-family: 'Copperplate Gothic Bold', 'Copperplate Gothic Light';
+	letter-spacing: 10px;
+	color: lightblue;
+	z-index: -1;
+	font-size: 80px;
+	text-align: center;
+}
+.bgpic {
+	background: url('Images/background4.jpg');
+	background-size: cover;
+	display: block;
+	width: 100%;
+	height: 66vh;
+	text-align: center;
+	position: relative;
+	z-index: -1;
+}
+.page {
+	padding-top: 20%;
+	color: white;
+	font-size: 50px;
+	font-weight: 900;
+}
+.path {
+	color: white;
+	font-size: 20px;
+	font-weight: 900;
+}
+div.donateus {
+	margin-left:25%;
+	display: inline-block;
+	vertical-align: top;
+	width: 50%;
+	padding: 20px;
+}
+.donater {
+	font-size: 25px;
+}
+.bn {
+	background-color:#2F2F2F;
+	border: 0px solid #2F2F2F;
+	border-radius: 2px;
+	border-radius: 2px;
+	font-size: 20px;
+	height: 40px;
+	text-align: center;
+	width: 100%;
+}
+.cname{
+	width: 40%;
+}
+.cemail {
+	margin-top: -78px;
+	margin-left: 50%;
+	width: 40%;
+}
+.cno {
+	margin-top: 50px;
+	width: 40%;
+}
+.cdate {
+	margin-top: -78px;
+	margin-left: 50%;
+	width: 40%;
+}
+.ctime {
+	margin-top:7%;
+	width: 40%;
+}
+.ccount {
+	margin-top: -41px;
+	margin-left: 50%;
+	width: 40%;
+}
+
+div.footer {
+	background-color: Black;
+}
+div.name {
+	display: inline-block;
+	padding-top: 50px;
+	margin-left: 50px;
+	width: 20%;
+	color: white;
+	vertical-align: top;
+}
+.fdesc {
+	margin-top: 15px;
+}
+div.donatelink {
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 12%;
+	margin-top: 6.5%;
+	width: 25%;
+	color: white;
+}
+.donateb
+{
+	color:black;
+	font-size: 20px;
+	margin-top: 10px;
+	width: 90%;
+	border: 1px solid lightblue;
+	border-radius: 5px;
+	padding: 10px;
+	background-color: lightblue;
+	cursor:pointer;
+}
+div.newsletter {
+	display: inline-block;
+	margin-left: 12%;
+	vertical-align: top;
+	margin-top: 3.5%;
+	width: 22%;
+	color: white;
+}
+.subs {
+	color: black;
+	font-size: 20px;
+	margin-top: 10px;
+	width: 90%;
+	border: 1px solid lightblue;
+	border-radius: 5px;
+	padding: 10px;
+	background-color: lightblue;
+	cursor:pointer;
+}
+.email {
+	font-size: 20px;
+	color: white;
+	border-width: 0px;
+	text-align: center;
+	margin-top: 15px;
+	border-radius: 5px;
+	height: 50px;
+	width: 90%;
+	background-color: #2F2F2F;
+}
+.social
+{
+	cursor:pointer;
+}
+@media screen and (max-width:1100px) and (min-width:800px) {
+	div.newsletter {
+		margin-left: 10%;
+	}
+}
